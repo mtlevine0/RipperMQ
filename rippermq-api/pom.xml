@@ -4,18 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.dailydev.r3vl</groupId>
-	<artifactId>rippermq</artifactId>
+	<artifactId>rippermq-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>rippermq</name>
-	<description>Demo project for Spring Boot</description>
+	<description>RabbitMQ Restful API</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.7.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>io.dailydev.r3vl</groupId>
+		<artifactId>rippermq-build</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../rippermq-build</relativePath>
 	</parent>
 
 	<properties>
