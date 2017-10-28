@@ -8,7 +8,7 @@ public class RipperMQApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RipperMQApplication.class, args);
-		System.out.println("MissionControl API is Running!");
+		System.out.println("RipperMQ API is Running!");
 	}
 	
 }

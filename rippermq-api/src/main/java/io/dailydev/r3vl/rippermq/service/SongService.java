@@ -4,6 +4,6 @@ import io.dailydev.r3vl.rippermq.model.Song;
 
 public interface SongService {
 	
-	boolean addSong(Song song);
+	boolean addSong(Song song) throws Exception;
 
 }
