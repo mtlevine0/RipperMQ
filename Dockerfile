@@ -12,6 +12,7 @@ RUN mvn clean package -DskipTests
 WORKDIR /usr/src/rippermq-workspace/rippermq-api/target
 
 EXPOSE 8081
+ENV SPRING_PROFILES_ACTIVE=dev
 
 CMD java -jar rippermq-api-0.0.1-SNAPSHOT.jar
 
